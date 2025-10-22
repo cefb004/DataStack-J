@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ��� Datastack-J
 
 **Datastack-J** é o projeto de **engenharia de dados e analytics** do ecossistema **Microstack-J**.  
@@ -37,3 +38,7 @@ O Datastack-J atua como a **camada de dados e inteligência** do ecossistema, re
                       │  - Integração API        │
                       └──────────────────────────┘
 
+=======
+# DataStack-J
+Analytical layer that integrates with MicroStack-J
+>>>>>>> 47fe073224415e4898b0a854e92bb4545e4e908f
