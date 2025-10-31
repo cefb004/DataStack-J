@@ -1,12 +1,11 @@
-<<<<<<< HEAD
-# ��� Datastack-J
+# ��� Datastack-J
 
 **Datastack-J** é o projeto de **engenharia de dados e analytics** do ecossistema **Microstack-J**.  
 Seu objetivo é coletar, transformar e analisar dados provenientes do backend principal (via API REST), gerando insights, relatórios e camadas analíticas otimizadas para consumo.
 
 ---
 
-## ��� Objetivo
+## ��� Objetivo
 
 O Datastack-J atua como a **camada de dados e inteligência** do ecossistema, responsável por:
 - Ingerir dados expostos pelo **Microstack-J** (Java + Spring Boot);
@@ -17,9 +16,8 @@ O Datastack-J atua como a **camada de dados e inteligência** do ecossistema, re
 
 ---
 
-## ���️ Arquitetura Geral
+## ���️ Arquitetura Geral
 
-```text
                       ┌──────────────────────────┐
                       │      Microstack-J        │
                       │  (Java + Spring Boot)    │
@@ -38,7 +36,3 @@ O Datastack-J atua como a **camada de dados e inteligência** do ecossistema, re
                       │  - Integração API        │
                       └──────────────────────────┘
 
-=======
-# DataStack-J
-Analytical layer that integrates with MicroStack-J
->>>>>>> 47fe073224415e4898b0a854e92bb4545e4e908f
