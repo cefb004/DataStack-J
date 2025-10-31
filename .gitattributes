@@ -1,0 +1,53 @@
+# ======================================
+# Linguagens principais do projeto
+# ======================================
+*.py         linguist-language=Python
+*.ipynb      linguist-language=Python
+*.sql        linguist-language=SQL
+*.yaml       linguist-language=YAML
+*.yml        linguist-language=YAML
+Dockerfile   linguist-language=Dockerfile
+*.sh         linguist-language=Shell
+
+# ======================================
+# Ignorar conteúdo que distorce o gráfico
+# ======================================
+
+# Dependências
+venv/*                   linguist-vendored
+.env/*                   linguist-vendored
+__pycache__/*            linguist-vendored
+*.egg-info/*             linguist-vendored
+*.whl                    linguist-vendored
+requirements.txt         linguist-vendored
+
+# Pastas de dados e logs
+data/*                   linguist-vendored
+datasets/*               linguist-vendored
+logs/*                   linguist-vendored
+output/*                 linguist-vendored
+tmp/*                    linguist-vendored
+
+# Arquivos de configuração auxiliares
+*.json                   linguist-vendored
+*.ini                    linguist-vendored
+*.cfg                    linguist-vendored
+*.toml                   linguist-vendored
+*.lock                   linguist-vendored
+
+# Testes e documentação
+tests/*                  linguist-vendored
+**/test/*                linguist-vendored
+docs/*                   linguist-documentation
+README.md                linguist-documentation
+*.md                     linguist-documentation
+notebooks/*              linguist-documentation
+
+# ======================================
+# Extras (para automação DevOps)
+# ======================================
+*.tf                     linguist-language=HCL
+*.dockerignore           linguist-vendored
+*.gitignore              linguist-vendored
+*.env                    linguist-vendored
+
